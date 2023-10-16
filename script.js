@@ -73,7 +73,7 @@ const app = {
         {
             name: "2AM",
             singer: "Justatee x Big Daddy",
-            path: "https://archive.org/download/2-am-justa-tee-big-daddy-nguoi-hat-cho-tinh-yeu-v.-a-playlist-nhac-cua-tui/2-am-justa-tee-big-daddy-nguoi-hat-cho-tinh-yeu-v.-a-playlist-nhac-cua-tui_archive.torrent",
+            path: "https://ia601400.us.archive.org/21/items/2-am-justa-tee-big-daddy-nguoi-hat-cho-tinh-yeu-v.-a-playlist-nhac-cua-tui/2AM%20-%20JustaTee%2C%20BigDaddy%20-%20Ng%C6%B0%E1%BB%9Di%20H%C3%A1t%20Cho%20T%C3%ACnh%20Y%C3%AAu%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3gitr",
             image:
                 "https://i.ytimg.com/vi/XGrvLJG8tuM/hqdefault.jpg"
         }
