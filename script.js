@@ -20,7 +20,7 @@ const repeatBtn = $(".btn-repeat");
 const playlist = $(".playlist");
 
 const app = {
-    currentIndex: 0,
+    currentIndex: 0, 
     isPlaying: false,
     isRandom: false,
     isRepeat: false,
@@ -29,27 +29,27 @@ const app = {
     // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
     songs: [
         {
-            name: "Yêu người có ước mơ",
+            name: "Yêu Người Có Ước Mơ",
             singer: "buitruonglinh",
             path: "https://archive.org/download/yeu-nguoi-co-uoc-mo-bai-hat-hay-nhat-buitruonglinh-nhac-viet-hot-thang-12-2022-v_202305/Y%C3%AAu%20Ng%C6%B0%E1%BB%9Di%20C%C3%B3%20%C6%AF%E1%BB%9Bc%20M%C6%A1%20%28B%C3%A0i%20H%C3%A1t%20Hay%20Nh%E1%BA%A5t%29%20-%20buitruonglinh%20-%20Nh%E1%BA%A1c%20Vi%E1%BB%87t%20Hot%20Th%C3%A1ng%2012_2022%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
             image: "https://avatar-ex-swe.nixcdn.com/song/2022/12/15/0/3/9/2/1671089368641_500.jpg"
         },
         {
-            name: "Em của ngày hôm qua",
-            singer: "Son Tung M-TP",
+            name: "Em Của Ngày Hôm Qua",
+            singer: "Sơn Tùng M-TP",
             path: "https://archive.org/download/em-cua-ngay-hom-qua-son-tung-m-tp-v-pop-essentials-v.-a-playlist-nhac-cua-tui/Em%20C%E1%BB%A7a%20Ng%C3%A0y%20H%C3%B4m%20Qua%20-%20S%C6%A1n%20T%C3%B9ng%20M-TP%20-%20V-POP%20Essentials%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
             image:
                 "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYVygoYy8ywSg-_nlDhd7aCditedMcoNVgsw&usqp=CAU"
         },
         {
-            name: "Tìm lại bầu trời ",
+            name: "Tìm Lại Bầu Trời ",
             singer: "Tuấn Hưng",
             path:
                 "https://archive.org/download/tim-lai-bau-troi-tuan-hung-ngoai-ay-v.-a-playlist-nhac-cua-tui/T%C3%ACm%20L%E1%BA%A1i%20B%E1%BA%A7u%20Tr%E1%BB%9Di%20-%20Tu%E1%BA%A5n%20H%C6%B0ng%20-%20Ngo%C3%A0i%20%E1%BA%A4y%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
             image: "https://dep.com.vn/wp-content/uploads/2017/05/Ca-si-Tuan-Hung-3.jpg"
         },
         {
-            name: "Cơn mưa xa dần",
+            name: "Cơn Mưa Xa Dần",
             singer: "Sơn Tùng M-TP",
             path: "https://archive.org/download/con-mua-xa-dan-son-tung-m-tp-co-the-hit-v.-a-playlist-nhac-cua-tui_202305/C%C6%A1n%20M%C6%B0a%20Xa%20D%E1%BA%A7n%20-%20S%C6%A1n%20T%C3%B9ng%20M-TP%20-%20C%C3%B3%20Th%E1%BB%83%20Hit%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
             image:
@@ -63,7 +63,7 @@ const app = {
                 "https://trixie.com.vn/media/images/article/59037126/noo.jpg"
         },
         {
-            name: "Em còn nhớ anh không???",
+            name: "Em Còn Nhớ Anh Không",
             singer: "Hoàng Tôn",
             path:
                 "https://archive.org/download/em-con-nho-anh-khong-hoang-ton-koo-nhac-viet-song-ca-hay-nhat-2020-v.-a-playlist-nhac-cua-tui/Em%20C%C3%B2n%20Nh%E1%BB%9B%20Anh%20Kh%C3%B4ng-%20-%20Ho%C3%A0ng%20T%C3%B4n%2C%20Koo%20-%20Nh%E1%BA%A1c%20Vi%E1%BB%87t%20Song%20Ca%20Hay%20Nh%E1%BA%A5t%202020%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
@@ -76,7 +76,50 @@ const app = {
             path: "https://ia601400.us.archive.org/21/items/2-am-justa-tee-big-daddy-nguoi-hat-cho-tinh-yeu-v.-a-playlist-nhac-cua-tui/2AM%20-%20JustaTee%2C%20BigDaddy%20-%20Ng%C6%B0%E1%BB%9Di%20H%C3%A1t%20Cho%20T%C3%ACnh%20Y%C3%AAu%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
             image:
                 "https://i.ytimg.com/vi/XGrvLJG8tuM/hqdefault.jpg"
+        },
+        {
+            name: "Chiều Hôm Ấy",
+            singer: "Jaykii",
+            path: "https://archive.org/download/chieu-hom-ay-jay-kii-nu-hon-tam-biet-v.-a-playlist-nhac-cua-tui/Chi%E1%BB%81u%20H%C3%B4m%20%E1%BA%A4y%20-%20JayKii%20-%20N%E1%BB%A5%20H%C3%B4n%20T%E1%BA%A1m%20Bi%E1%BB%87t%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
+            image:
+                "https://static2.yan.vn/YanNews/2167221/202109/jaykii-la-ai-thong-tin-tieu-su-ca-si-tran-anh-quan-4d3dc683.jpeg"
+        },
+        {
+            name: "Yêu 5",
+            singer: "RHYMASTIC",
+            path: "https://archive.org/download/yeu-5-rhymastic-da-den-luc-yeu-v.-a-playlist-nhac-cua-tui/Y%C3%AAu%205%20-%20Rhymastic%20-%20%C4%90%C3%A3%20%C4%90%E1%BA%BFn%20L%C3%BAc%20Y%C3%AAu%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
+            image:
+                "https://yt3.googleusercontent.com/PEk69mTAxuH0HufHMPfpoNs8083NDC5EXRUeJK9ACkkgdmvPEG6Oh_I5KLCuuOSlH79u0QRWHw=s900-c-k-c0x00ffffff-no-rj"
+        },
+        {
+            name: "Tháng Tư Là Lời Nói Dối Của Em",
+            singer: "Hà Anh Tuấn",
+            path: "https://archive.org/download/thang-tu-la-loi-noi-doi-cua-em-ha-anh-tuan-v-pop-essentials-v.-a-playlist-nhac-cua-tui/Th%C3%A1ng%20T%C6%B0%20L%C3%A0%20L%E1%BB%9Di%20N%C3%B3i%20D%E1%BB%91i%20C%E1%BB%A7a%20Em%20-%20H%C3%A0%20Anh%20Tu%E1%BA%A5n%20-%20V-POP%20Essentials%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
+            image:
+                "https://vnn-imgs-a1.vgcloud.vn/img.infonet.vn/w490/Uploaded/2020/rkjokv/2020_04_01/kpodbivavwmdb7yczkrjr0cdvtccjzshfsxl8qpg_oumk.jpeg"
+        },
+        {
+            name: "Anh Đã Quen Với Cô Đơn",
+            singer: "Soobin Hoàng Sơn",
+            path: "https://archive.org/download/anh-da-quen-voi-co-don-soobin-hoang-son/Anh%20%C4%90%C3%A3%20Quen%20V%E1%BB%9Bi%20C%C3%B4%20%C4%90%C6%A1n_Soobin%20Ho%C3%A0ng%20S%C6%A1n.mp3",
+            image:
+                "https://vnn-imgs-f.vgcloud.vn/2021/11/07/09/soobin-hoang-son-co-luc-ap-luc-tinh-than-toi-hoan-toan-suy-sup.jpg"
+        },
+        {
+            name: "Chờ Đợi Có Đáng Sợ",
+            singer: "Andiez",
+            path: "https://archive.org/download/cho-doi-co-dang-so-andiez-that-tinh-vol.-37-v.-a-playlist-nhac-cua-tui_202202/Ch%E1%BB%9D%20%C4%90%E1%BB%A3i%20C%C3%B3%20%C4%90%C3%A1ng%20S%E1%BB%A3%20-%20Andiez%20-%20Th%E1%BA%A5t%20T%C3%ACnh%20%28Vol.%2037%29%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
+            image:
+                "https://i.ytimg.com/vi/AYVXY7Rsu2c/maxresdefault.jpg"
+        },
+        {
+            name: "Chờ Đợi Có Đáng Sợ",
+            singer: "Andiez",
+            path: "https://drive.google.com/file/d/1kHkbRNgixJRRxX1g4AOigSiNH0DJCmN3/view?usp=sharing",
+            image:
+                "https://i.ytimg.com/vi/AYVXY7Rsu2c/maxresdefault.jpg"
         }
+
     ],
     setConfig: function (key, value) {
         this.config[key] = value;
