@@ -56,6 +56,13 @@ const app = {
                 "https://ss-images.saostar.vn/wp700/pc/1642295797624/saostar-9y89egqz0wq5r5ry.jpg"
         },
         {
+            name: "Nắng Ấm Ngang Qua",
+            singer: "Sơn Tùng M-TP",
+            path: "https://archive.org/download/nang-am-ngang-qua-son-tung-m-tp-tiec-tung-thoi-v.-a-playlist-nhac-cua-tui_202304/N%E1%BA%AFng%20%E1%BA%A4m%20Ngang%20Qua%20-%20S%C6%A1n%20T%C3%B9ng%20M-TP%20-%20Ti%E1%BB%87c%20T%C3%B9ng%20Th%C3%B4i%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
+            image:
+                "https://nld.mediacdn.vn/291774122806476800/2023/5/17/3471044557860853628333446226731026240094406n-16842998525331526811843.jpg"
+        },
+        {
             name: "Chạm khẽ tim anh một chút thôi",
             singer: "Noo Phước Thịnh",
             path: "https://archive.org/download/cham-khe-tim-anh-mot-chut-thoi-gala-nhac-viet-noo-phuoc-thinh-hello-lover-v.-a-playlist-nhac-cua-tui/Ch%E1%BA%A1m%20Kh%E1%BA%BD%20Tim%20Anh%20M%E1%BB%99t%20Ch%C3%BAt%20Th%C3%B4i%20%28Gala%20Nh%E1%BA%A1c%20Vi%E1%BB%87t%29%20-%20Noo%20Ph%C6%B0%E1%BB%9Bc%20Th%E1%BB%8Bnh%20-%20Hello%20Lover%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
@@ -118,7 +125,50 @@ const app = {
             path: "https://archive.org/download/khi-nguoi-minh-yeu-khoc-phan-manh-quynh-se-co-ngay-v.-a-playlist-nhac-cua-tui/Khi%20Ng%C6%B0%E1%BB%9Di%20M%C3%ACnh%20Y%C3%AAu%20Kh%C3%B3c%20-%20Phan%20M%E1%BA%A1nh%20Qu%E1%BB%B3nh%20-%20S%E1%BA%BD%20C%C3%B3%20Ng%C3%A0y%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
             image:
                 "https://galaxylands.com.vn/wp-content/uploads/2022/12/ca-si-phan-manh-quynh-2.jpg"
-        }
+        },
+
+        {
+            name: "Đổi Thay",
+            singer: "Hồ Quang Hiếu",
+            path: "https://archive.org/download/doi-thay-hqh/doi%20thay%20-%20HQH.mp3",
+            image:
+                "https://avatar-ex-swe.nixcdn.com/singer/avatar/2018/05/07/7/c/e/5/1525673879571_600.jpg"
+        },
+        {
+            name: "Phía Sau Em",
+            singer: "Kay Trần x Binz",
+            path: "https://archive.org/download/phia-sau-em-kay-tran-binz-my-nam-nhac-viet-v.-a-playlist-nhac-cua-tui/Ph%C3%ADa%20Sau%20Em%20-%20Kay%20Tr%E1%BA%A7n%2C%20Binz%20-%20M%E1%BB%B9%20Nam%20Nh%E1%BA%A1c%20Vi%E1%BB%87t%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
+            image:
+                "https://avatar-ex-swe.nixcdn.com/song/2018/07/11/6/b/a/3/1531324811184_640.jpg"
+        },
+        {
+            name: "Cao Ốc 20",
+            singer: "B Ray x Đat G x MASEW",
+            path: "https://archive.org/download/cao-oc-20-b-ray-dat-g-v-pop-hay-nhat-2019-v.-a-playlist-nhac-cua-tui/Cao%20%E1%BB%90c%2020%20-%20B%20Ray%2C%20%C4%90%E1%BA%A1t%20G%20-%20V-Pop%20Hay%20Nh%E1%BA%A5t%202019%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
+            image:
+                "https://i1.sndcdn.com/artworks-XaqvNkGB8YVzc99T-lzAgIg-t500x500.jpg"
+        },
+        {
+            name: "Vệ Tinh",
+            singer: "HIEUTHUHAI",
+            path: "https://archive.org/download/ve-tinh-hieuthuhai-hoang-ton-kewtiie-tiec-tung-thoi-v.-a-playlist-nhac-cua-tui_202304/V%E1%BB%87%20Tinh%20-%20HIEUTHUHAI%2C%20Ho%C3%A0ng%20T%C3%B4n%2C%20Kewtiie%20-%20Ti%E1%BB%87c%20T%C3%B9ng%20Th%C3%B4i%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
+            image:
+                "https://media.viez.vn/prod/2023/4/19/large_image_2974b45ac0.png"
+        },
+        {
+            name: "Khó Vẽ Nụ Cười",
+            singer: "Đạt G x Du Uyên",
+            path: "https://archive.org/download/kho-ve-nu-cuoi-dat-g-du-uyen-v-pop-essentials-v.-a-playlist-nhac-cua-tui/Kh%C3%B3%20V%E1%BA%BD%20N%E1%BB%A5%20C%C6%B0%E1%BB%9Di%20-%20%C4%90%E1%BA%A1t%20G%2C%20Du%20Uy%C3%AAn%20-%20V-POP%20Essentials%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
+            image:
+                "https://i1.sndcdn.com/artworks-000612189364-sccajj-t500x500.jpg"
+        },
+        {
+            name: "Dù Cho Mai Về Sau",
+            singer: "buitruonglinh",
+            path: "https://archive.org/download/du-cho-mai-ve-sau-acoustic-version-bui-truong-linh-tuoi-mat-tam-hon-v.-a-playlist-nhac-cua-tui_202107/D%C3%B9%20Cho%20Mai%20V%E1%BB%81%20Sau%20%28Acoustic%20Version%29%20-%20B%C3%B9i%20Tr%C6%B0%E1%BB%9Dng%20Linh%20-%20T%C6%B0%E1%BB%9Bi%20M%C3%A1t%20T%C3%A2m%20H%E1%BB%93n%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
+            image:
+                "https://images.genius.com/0307e788dcf5483556030ecbcd3c6a24.500x500x1.jpg"
+        },
 
     ],
     setConfig: function (key, value) {
