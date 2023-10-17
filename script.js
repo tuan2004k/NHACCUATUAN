@@ -113,11 +113,11 @@ const app = {
                 "https://i.ytimg.com/vi/AYVXY7Rsu2c/maxresdefault.jpg"
         },
         {
-            name: "Chờ Đợi Có Đáng Sợ",
-            singer: "Andiez",
-            path: "https://drive.google.com/file/d/1kHkbRNgixJRRxX1g4AOigSiNH0DJCmN3/view?usp=sharing",
+            name: "Khi Người Mình Yêu Khóc",
+            singer: "Phan Mạnh Quỳnh",
+            path: "https://archive.org/download/khi-nguoi-minh-yeu-khoc-phan-manh-quynh-se-co-ngay-v.-a-playlist-nhac-cua-tui/Khi%20Ng%C6%B0%E1%BB%9Di%20M%C3%ACnh%20Y%C3%AAu%20Kh%C3%B3c%20-%20Phan%20M%E1%BA%A1nh%20Qu%E1%BB%B3nh%20-%20S%E1%BA%BD%20C%C3%B3%20Ng%C3%A0y%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
             image:
-                "https://i.ytimg.com/vi/AYVXY7Rsu2c/maxresdefault.jpg"
+                "https://galaxylands.com.vn/wp-content/uploads/2022/12/ca-si-phan-manh-quynh-2.jpg"
         }
 
     ],
