@@ -15,7 +15,9 @@
   
   html {
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    
   }
   
   .player {
@@ -133,8 +135,8 @@
   
   /* PLAYLIST */
   .playlist {
-    margin-top: 430px;
-    padding-top: 12px;
+    margin-top: 400px;
+    padding: 12px;
   }
   
   .song {
@@ -175,7 +177,7 @@
   }
   
   .song .title {
-    font-size: 18px;
+    font-size: 20px;
     color: var(--text-color);
   }
   
