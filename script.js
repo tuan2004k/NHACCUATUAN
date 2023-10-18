@@ -1,10 +1,8 @@
-// Một số bài hát có thể bị lỗi do liên kết bị hỏng. Vui lòng thay thế liên kết khác để có thể phát
-// Some songs may be faulty due to broken links. Please replace another link so that it can be played
 
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
-const PlAYER_STORAGE_KEY = "F8_PLAYER";
+const PlAYER_STORAGE_KEY = "PLAYER";
 
 const player = $(".player");
 const cd = $(".cd");
@@ -32,7 +30,7 @@ const app = {
             name: "BẠN ĐỜI",
             singer: "KARIK ft GDUCKY",
             path: "https://archive.org/download/ban-doi-karik-x-gducky/Ban-Doi--Karik-x-Gducky.mp3",
-            image: "https://avatar-ex-swe.nixcdn.com/song/2023/10/03/f/e/7/2/1696311595243_640.jpg"
+            image: "https://avatar-ex-swe.nixcdn.com/song/2023/10/03/f/e/7/2/1696311595243_640.jpg",      
         },
         {
             name: "Yêu Người Có Ước Mơ",
