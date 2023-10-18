@@ -70,14 +70,14 @@ const app = {
             singer: "Sơn Tùng M-TP",
             path: "https://archive.org/download/con-mua-xa-dan-son-tung-m-tp-co-the-hit-v.-a-playlist-nhac-cua-tui_202305/C%C6%A1n%20M%C6%B0a%20Xa%20D%E1%BA%A7n%20-%20S%C6%A1n%20T%C3%B9ng%20M-TP%20-%20C%C3%B3%20Th%E1%BB%83%20Hit%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
             image:
-                "https://ss-images.saostar.vn/wp700/pc/1642295797624/saostar-9y89egqz0wq5r5ry.jpg"
+                "https://scontent.xx.fbcdn.net/v/t1.15752-9/393838752_875495760811368_6016029949774000207_n.png?stp=dst-png_s261x260&_nc_cat=100&ccb=1-7&_nc_sid=510075&_nc_ohc=DJFkJcGtsuwAX_4PEIR&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRpWyp5TifnTjVbsSy9fx8mijquyTvobobHwzFQ5LRL2w&oe=6557AC0E"
         },
         {
             name: "Nắng Ấm Ngang Qua",
             singer: "Sơn Tùng M-TP",
             path: "https://archive.org/download/nang-am-ngang-qua-son-tung-m-tp-tiec-tung-thoi-v.-a-playlist-nhac-cua-tui_202304/N%E1%BA%AFng%20%E1%BA%A4m%20Ngang%20Qua%20-%20S%C6%A1n%20T%C3%B9ng%20M-TP%20-%20Ti%E1%BB%87c%20T%C3%B9ng%20Th%C3%B4i%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
             image:
-                "https://nld.mediacdn.vn/291774122806476800/2023/5/17/3471044557860853628333446226731026240094406n-16842998525331526811843.jpg"
+                "https://scontent.xx.fbcdn.net/v/t1.15752-9/393587576_3059834610826846_3291990996972069318_n.png?stp=dst-png_s240x240&_nc_cat=100&ccb=1-7&_nc_sid=510075&_nc_ohc=5q0mi6HP9WgAX_yvqzY&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdT_Qfz7x9t47ZHCaOqZWKn_wYP8HPf9i5BPY222Wm9yew&oe=6557A3A0"
         },
         {
             name: "Chạm Khẽ Tim Anh Một Chút Thôi",
