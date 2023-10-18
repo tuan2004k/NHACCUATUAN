@@ -18,7 +18,7 @@ const repeatBtn = $(".btn-repeat");
 const playlist = $(".playlist");
 
 const app = {
-    currentIndex: 0, 
+    currentIndex: 0,
     isPlaying: false,
     isRandom: false,
     isRepeat: false,
@@ -30,7 +30,13 @@ const app = {
             name: "BẠN ĐỜI",
             singer: "KARIK ft GDUCKY",
             path: "https://archive.org/download/ban-doi-karik-x-gducky/Ban-Doi--Karik-x-Gducky.mp3",
-            image: "https://avatar-ex-swe.nixcdn.com/song/2023/10/03/f/e/7/2/1696311595243_640.jpg",      
+            image: "https://avatar-ex-swe.nixcdn.com/song/2023/10/03/f/e/7/2/1696311595243_640.jpg",
+        },
+        {
+            name: "EM LÀ",
+            singer: "MONO x ONION",
+            path: "https://archive.org/download/em-la-mono-onionn-o-day-co-boi-tinh-duyen-v.-a-playlist-nhac-cua-tui_202304/Em%20L%C3%A0%20-%20MONO%2C%20Onionn%20-%20%E1%BB%9E%20%C4%90%C3%A2y%20C%C3%B3%20B%C3%B3i%20T%C3%ACnh%20Duy%C3%AAn%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
+            image: "https://image.voh.com.vn/voh/Image/2022/10/11/mono-profiile-tieu-su-0011.jpg?t=o",
         },
         {
             name: "Yêu Người Có Ước Mơ",
@@ -103,6 +109,14 @@ const app = {
                 "https://i.ytimg.com/vi/XGrvLJG8tuM/hqdefault.jpg"
         },
         {
+            name: "Muộn Rồi Mà Sao Còn",
+            singer: "Sơn Tùng M-TP",
+            path: "https://archive.org/download/muon-roi-ma-sao-con-son-tung-m-tp/Mu%E1%BB%99n%20R%E1%BB%93i%20M%C3%A0%20Sao%20C%C3%B2n%20-%20S%C6%A1n%20T%C3%B9ng%20M-TP.mp3",
+            image:
+                "https://baodongnai.com.vn/file/e7837c02876411cd0187645a2551379f/dataimages/202104/original/images2364451_t17_3.jpg"
+        },
+        
+        {
             name: "Chiều Hôm Ấy",
             singer: "Jaykii",
             path: "https://archive.org/download/chieu-hom-ay-jay-kii-nu-hon-tam-biet-v.-a-playlist-nhac-cua-tui/Chi%E1%BB%81u%20H%C3%B4m%20%E1%BA%A4y%20-%20JayKii%20-%20N%E1%BB%A5%20H%C3%B4n%20T%E1%BA%A1m%20Bi%E1%BB%87t%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
@@ -129,6 +143,13 @@ const app = {
             path: "https://archive.org/download/thang-tu-la-loi-noi-doi-cua-em-ha-anh-tuan-v-pop-essentials-v.-a-playlist-nhac-cua-tui/Th%C3%A1ng%20T%C6%B0%20L%C3%A0%20L%E1%BB%9Di%20N%C3%B3i%20D%E1%BB%91i%20C%E1%BB%A7a%20Em%20-%20H%C3%A0%20Anh%20Tu%E1%BA%A5n%20-%20V-POP%20Essentials%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
             image:
                 "https://vnn-imgs-a1.vgcloud.vn/img.infonet.vn/w490/Uploaded/2020/rkjokv/2020_04_01/kpodbivavwmdb7yczkrjr0cdvtccjzshfsxl8qpg_oumk.jpeg"
+        },
+        {
+            name: "Buông Đôi Tay Nhau Ra",
+            singer: "Sơn Tùng M-TP",
+            path: "https://archive.org/download/BuongDoiTayNhauRaSonTungMTP4184408Hq/BuongDoiTayNhauRa-SonTungMTP-4184408_hq.mp3",
+            image:
+                "https://images2.thanhnien.vn/Uploaded/vuphuong/2015_12_18/dsj_5746_XCNT.jpg?width=500"
         },
         {
             name: "Suýt Nữa Thì",
@@ -225,20 +246,20 @@ const app = {
     render: function () {
         const htmls = this.songs.map((song, index) => {
             return `
-                        <div class="song ${index === this.currentIndex ? "active" : ""
+                                    <div class="song ${index === this.currentIndex ? "active" : ""
                 }" data-index="${index}">
-                            <div class="thumb"
-                                style="background-image: url('${song.image}')">
-                            </div>
-                            <div class="body">
-                                <h3 class="title">${song.name}</h3>
-                                <p class="author">${song.singer}</p>
-                            </div>
-                            <div class="option">
-                                <i class="fas fa-ellipsis-h"></i>
-                            </div>
-                        </div>
-                    `;
+                                        <div class="thumb"
+                                            style="background-image: url('${song.image}')">
+                                        </div>
+                                        <div class="body">
+                                            <h3 class="title">${song.name}</h3>
+                                            <p class="author">${song.singer}</p>
+                                        </div>
+                                        <div class="option">
+                                            <i class="fas fa-ellipsis-h"></i>
+                                        </div>
+                                    </div>
+                                `;
         });
         playlist.innerHTML = htmls.join("");
     },
@@ -455,5 +476,5 @@ const app = {
         repeatBtn.classList.toggle("active", this.isRepeat);
     }
 };
-
 app.start();
+

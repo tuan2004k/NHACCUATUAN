@@ -45,6 +45,7 @@
     max-width: 480px;
     border-bottom: 1px solid #ebebeb;
     align-items: center;
+    border-radius: 5px;
   }
   
   /* HEADER */
@@ -132,8 +133,8 @@
   
   /* PLAYLIST */
   .playlist {
-    margin-top: 408px;
-    padding: 12px;
+    margin-top: 430px;
+    padding-top: 12px;
   }
   
   .song {
@@ -188,11 +189,3 @@
     color: #999;
     font-size: 18px;
   }
-  .lyrics {
-    display: none;
-}
-
-.lyrics.show {
-    display: block;
-}
-  
