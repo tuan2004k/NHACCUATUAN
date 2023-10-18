@@ -29,6 +29,12 @@ const app = {
     // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
     songs: [
         {
+            name: "BẠN ĐỜI",
+            singer: "KARIK ft GDUCKY",
+            path: "https://archive.org/download/ban-doi-karik-x-gducky/Ban-Doi--Karik-x-Gducky.mp3",
+            image: "https://avatar-ex-swe.nixcdn.com/song/2023/10/03/f/e/7/2/1696311595243_640.jpg"
+        },
+        {
             name: "Yêu Người Có Ước Mơ",
             singer: "buitruonglinh",
             path: "https://archive.org/download/yeu-nguoi-co-uoc-mo-bai-hat-hay-nhat-buitruonglinh-nhac-viet-hot-thang-12-2022-v_202305/Y%C3%AAu%20Ng%C6%B0%E1%BB%9Di%20C%C3%B3%20%C6%AF%E1%BB%9Bc%20M%C6%A1%20%28B%C3%A0i%20H%C3%A1t%20Hay%20Nh%E1%BA%A5t%29%20-%20buitruonglinh%20-%20Nh%E1%BA%A1c%20Vi%E1%BB%87t%20Hot%20Th%C3%A1ng%2012_2022%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
@@ -49,6 +55,13 @@ const app = {
             image: "https://dep.com.vn/wp-content/uploads/2017/05/Ca-si-Tuan-Hung-3.jpg"
         },
         {
+            name: "Bài Này Không Để Đi Diển",
+            singer: "Anh Tú Atus",
+            path:
+                "https://archive.org/download/bai-nay-khong-de-di-dien-anh-tu-atus-nhac-viet-hot-thang-11-2022-v.-a-playlist-nhac-cua-tui/B%C3%A0i%20N%C3%A0y%20Kh%C3%B4ng%20%C4%90%E1%BB%83%20%C4%90i%20Di%E1%BB%85n%20-%20Anh%20T%C3%BA%20Atus%20-%20Nh%E1%BA%A1c%20Vi%E1%BB%87t%20Hot%20Th%C3%A1ng%2011_2022%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
+            image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtv4OKh1vFbzoz-lfT3tjK2od1ZiL2foIexjwnbK5w0E_6g0KWRX66RivBrJ2ugAQRA6z-Yy_e3pSe-D3eInlvLIXVkfKO5GdCcr8v5t5FSATmAun6FEiXeQxgMryUsR4IcgqJq1XgwZ4rSz9f7MpZkLTb9JqvMDK1SKyEt-nLLPRQSkEVGCo7Z2VdOA/s1440/FB_IMG_1665400345431.jpg"
+        },
+        {
             name: "Cơn Mưa Xa Dần",
             singer: "Sơn Tùng M-TP",
             path: "https://archive.org/download/con-mua-xa-dan-son-tung-m-tp-co-the-hit-v.-a-playlist-nhac-cua-tui_202305/C%C6%A1n%20M%C6%B0a%20Xa%20D%E1%BA%A7n%20-%20S%C6%A1n%20T%C3%B9ng%20M-TP%20-%20C%C3%B3%20Th%E1%BB%83%20Hit%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
@@ -63,11 +76,18 @@ const app = {
                 "https://nld.mediacdn.vn/291774122806476800/2023/5/17/3471044557860853628333446226731026240094406n-16842998525331526811843.jpg"
         },
         {
-            name: "Chạm khẽ tim anh một chút thôi",
+            name: "Chạm Khẽ Tim Anh Một Chút Thôi",
             singer: "Noo Phước Thịnh",
             path: "https://archive.org/download/cham-khe-tim-anh-mot-chut-thoi-gala-nhac-viet-noo-phuoc-thinh-hello-lover-v.-a-playlist-nhac-cua-tui/Ch%E1%BA%A1m%20Kh%E1%BA%BD%20Tim%20Anh%20M%E1%BB%99t%20Ch%C3%BAt%20Th%C3%B4i%20%28Gala%20Nh%E1%BA%A1c%20Vi%E1%BB%87t%29%20-%20Noo%20Ph%C6%B0%E1%BB%9Bc%20Th%E1%BB%8Bnh%20-%20Hello%20Lover%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
             image:
                 "https://trixie.com.vn/media/images/article/59037126/noo.jpg"
+        },
+        {
+            name: "Vì Yêu Cứ Đâm Đầu",
+            singer: "MIN x ĐEN VÂU x JUSTATEE",
+            path: "https://archive.org/download/vi-yeu-cu-dam-dau-min-den-justa-tee-hit-viet-quoc-dan-v.-a-playlist-nhac-cua-tui_202304/V%C3%AC%20Y%C3%AAu%20C%E1%BB%A9%20%C4%90%C3%A2m%20%C4%90%E1%BA%A7u%20-%20MIN%2C%20%C4%90en%2C%20JustaTee%20-%20Hit%20Vi%E1%BB%87t%20Qu%E1%BB%91c%20D%C3%A2n%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
+            image:
+                "https://photo-resize-zmp3.zmdcdn.me/w600_r1x1_jpeg/cover/0/3/a/c/03ac82cbf720ea5d24129dc5a2bb5bbe.jpg"
         },
         {
             name: "Em Còn Nhớ Anh Không",
@@ -92,6 +112,13 @@ const app = {
                 "https://static2.yan.vn/YanNews/2167221/202109/jaykii-la-ai-thong-tin-tieu-su-ca-si-tran-anh-quan-4d3dc683.jpeg"
         },
         {
+            name: "Em Có Nghe",
+            singer: "KHA",
+            path: "https://archive.org/download/em-co-nghe-kha-top-indie-vie-t-hot-nhat-2020-v.-a-playlist-nhac-cua-tui/Em%20C%C3%B3%20Nghe%20-%20Kha%20-%20Top%20INDIE%20VI%E1%BB%86T%20Hot%20Nh%E1%BA%A5t%202020%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
+            image:
+                "https://i.scdn.co/image/ab67616d0000b2737da44e3bda1e84148c0dc754"
+        },
+        {
             name: "Yêu 5",
             singer: "RHYMASTIC",
             path: "https://archive.org/download/yeu-5-rhymastic-da-den-luc-yeu-v.-a-playlist-nhac-cua-tui/Y%C3%AAu%205%20-%20Rhymastic%20-%20%C4%90%C3%A3%20%C4%90%E1%BA%BFn%20L%C3%BAc%20Y%C3%AAu%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
@@ -106,11 +133,25 @@ const app = {
                 "https://vnn-imgs-a1.vgcloud.vn/img.infonet.vn/w490/Uploaded/2020/rkjokv/2020_04_01/kpodbivavwmdb7yczkrjr0cdvtccjzshfsxl8qpg_oumk.jpeg"
         },
         {
+            name: "Suýt Nữa Thì",
+            singer: "Andiez",
+            path: "https://archive.org/download/SuytNuaThiAndiezLosslessFLAC/Suyt%20Nua%20Thi%20-%20Andiez%20%5BLossless_FLAC%5D.mp3",
+            image:
+                "https://images2.thanhnien.vn/zoom/700_438/Uploaded/phuongthanh/2018_05_22/batch_a7200228_NGJY.jpg"
+        },
+        {
             name: "Anh Đã Quen Với Cô Đơn",
             singer: "Soobin Hoàng Sơn",
             path: "https://archive.org/download/anh-da-quen-voi-co-don-soobin-hoang-son/Anh%20%C4%90%C3%A3%20Quen%20V%E1%BB%9Bi%20C%C3%B4%20%C4%90%C6%A1n_Soobin%20Ho%C3%A0ng%20S%C6%A1n.mp3",
             image:
                 "https://vnn-imgs-f.vgcloud.vn/2021/11/07/09/soobin-hoang-son-co-luc-ap-luc-tinh-than-toi-hoan-toan-suy-sup.jpg"
+        },
+        {
+            name: "Nếu Lúc Đó",
+            singer: "tlinh (ft 2pillz)",
+            path: "https://archive.org/download/neu-luc-do-tlinh-2pillz-v-pop-essentials-v.-a-playlist-nhac-cua-tui/n%E1%BA%BFu%20l%C3%BAc%20%C4%91%C3%B3%20-%20tlinh%2C%202pillz%20-%20V-POP%20Essentials%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
+            image:
+                "https://vcdn-giaitri.vnecdn.net/2023/03/06/Tlinh-3403-1678086389.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=0W411dFg3khe-OwYxspViA"
         },
         {
             name: "Chờ Đợi Có Đáng Sợ",
@@ -146,7 +187,14 @@ const app = {
             singer: "B Ray x Đat G x MASEW",
             path: "https://archive.org/download/cao-oc-20-b-ray-dat-g-v-pop-hay-nhat-2019-v.-a-playlist-nhac-cua-tui/Cao%20%E1%BB%90c%2020%20-%20B%20Ray%2C%20%C4%90%E1%BA%A1t%20G%20-%20V-Pop%20Hay%20Nh%E1%BA%A5t%202019%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
             image:
-                "https://i1.sndcdn.com/artworks-XaqvNkGB8YVzc99T-lzAgIg-t500x500.jpg"
+                "https://i1.sndcdn.com/artworks-000556537428-fuinlx-t500x500.jpg"
+        },
+        {
+            name: "Sài Gòn Hôm Nay Mưa",
+            singer: "Hoàng Duyên x Hứa Kim Tuyền",
+            path: "https://archive.org/download/sai-gon-dau-long-qua-hua-kim-tuyen-hoang-duyen/S%C3%A0i%20G%C3%B2n%20%C4%90au%20L%C3%B2ng%20Qu%C3%A1%20-%20H%E1%BB%A9a%20Kim%20Tuy%E1%BB%81n%2C%20Ho%C3%A0ng%20Duy%C3%AAn.mp3",
+            image:
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2FPxj67_rr-gxv7OF6PU1LMut2783BrB2W77TQjdb0bu3c7JZSvonenKLbNKAdfab4z4&usqp=CAU"
         },
         {
             name: "Vệ Tinh",
