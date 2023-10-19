@@ -33,16 +33,34 @@ const app = {
             image: "https://avatar-ex-swe.nixcdn.com/song/2023/10/03/f/e/7/2/1696311595243_640.jpg",
         },
         {
-            name: "EM LÀ",
-            singer: "MONO x ONION",
-            path: "https://archive.org/download/em-la-mono-onionn-o-day-co-boi-tinh-duyen-v.-a-playlist-nhac-cua-tui_202304/Em%20L%C3%A0%20-%20MONO%2C%20Onionn%20-%20%E1%BB%9E%20%C4%90%C3%A2y%20C%C3%B3%20B%C3%B3i%20T%C3%ACnh%20Duy%C3%AAn%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
-            image: "https://image.voh.com.vn/voh/Image/2022/10/11/mono-profiile-tieu-su-0011.jpg?t=o",
+            name: "Sự Thât Sau Một Lời Hứa",
+            singer: "Chi Dân",
+            path: "https://archive.org/download/su-that-sau-mot-loi-hua-chi-dan-3316709/SuThatSauMotLoiHua-ChiDan-3316709.mp3",
+            image: "https://cherryradio.com.au/uploads/singer/avatar/2019/01/695/1547199065_600.jpg",
+        },
+        {
+            name: "Ngõ Chạm",
+            singer: "EMILY x BIGDADDY",
+            path: "https://archive.org/download/y-2mate.com-ngo-cha-m-bigdaddy-x-emily-official-music-video-v-240-p/y2mate.com%20-%20NG%C3%95%20CH%E1%BA%A0M%20%20BIGDADDY%20x%20EMILY%20%20OFFICIAL%20MUSIC%20VIDEO_v240P.mp4",
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8ZyGd_CB28EKSGlam4UH8v2OIqIXvgB5AXUWrG9CM4KB70C5Ec6jIy5DmrAgF-VnmGds&usqp=CAU",
+        },
+        {
+            name: "Anh Là Ai",
+            singer: "Huỳnh Công Hiếu & DT Tập Rap",
+            path: "https://archive.org/download/y-2mate.com-anh-la-ai-huynh-cong-hieu-dt-tap-rap-team-b-ray-rap-viet-2023-mv-lyrics-v-240-p/y2mate.com%20-%20Anh%20L%C3%A0%20Ai%20%20Hu%E1%BB%B3nh%20C%C3%B4ng%20Hi%E1%BA%BFu%20%20DT%20T%E1%BA%ADp%20Rap%20%20Team%20B%20Ray%20%20Rap%20Vi%E1%BB%87t%202023%20MV%20Lyrics_v240P.mp4",
+            image: "https://scontent.xx.fbcdn.net/v/t1.15752-9/394332312_868257764921313_6861759454307793711_n.png?stp=dst-png_p206x206&_nc_cat=107&ccb=1-7&_nc_sid=510075&_nc_ohc=LMXRe8I9wsMAX_spnRC&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdR4kwJdLqr3LY2-FDosqtL6mD34ZkodvU06yhbhNBtwGQ&oe=6558E73B",
         },
         {
             name: "Yêu Người Có Ước Mơ",
             singer: "buitruonglinh",
             path: "https://archive.org/download/yeu-nguoi-co-uoc-mo-bai-hat-hay-nhat-buitruonglinh-nhac-viet-hot-thang-12-2022-v_202305/Y%C3%AAu%20Ng%C6%B0%E1%BB%9Di%20C%C3%B3%20%C6%AF%E1%BB%9Bc%20M%C6%A1%20%28B%C3%A0i%20H%C3%A1t%20Hay%20Nh%E1%BA%A5t%29%20-%20buitruonglinh%20-%20Nh%E1%BA%A1c%20Vi%E1%BB%87t%20Hot%20Th%C3%A1ng%2012_2022%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
             image: "https://avatar-ex-swe.nixcdn.com/song/2022/12/15/0/3/9/2/1671089368641_500.jpg"
+        },
+        {
+            name: "Anh Không Cố Ý",
+            singer: "Ogenus & Limitlxss",
+            path: "https://archive.org/download/y-2mate.com-anh-khong-co-y-oge-nus-limitlxss-team-big-daddy-rap-viet-2023-mv-lyrics-v-240-p/y2mate.com%20-%20Anh%20Kh%C3%B4ng%20C%E1%BB%91%20%C3%9D%20%20OgeNus%20%20Limitlxss%20%20Team%20BigDaddy%20%20Rap%20Vi%E1%BB%87t%202023%20MV%20Lyrics_v240P.mp4",
+            image: "https://scontent.xx.fbcdn.net/v/t1.15752-9/393686269_710022661152064_1733492250562868286_n.png?stp=dst-png_s261x260&_nc_cat=101&ccb=1-7&_nc_sid=510075&_nc_ohc=GxktAP0aam8AX_Mbp6E&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSP6pmG05A-HeCSbM2oE9WdAVjt0NtMro9A1KdSpD6v9A&oe=6558E936"
         },
         {
             name: "Em Của Ngày Hôm Qua",
@@ -52,11 +70,11 @@ const app = {
                 "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYVygoYy8ywSg-_nlDhd7aCditedMcoNVgsw&usqp=CAU"
         },
         {
-            name: "Tìm Lại Bầu Trời ",
-            singer: "Tuấn Hưng",
+            name: "Lệ Lưu Ly ",
+            singer: "Vũ Phụng Tiên x DT Tập Rap x DRUM 7",
             path:
-                "https://archive.org/download/tim-lai-bau-troi-tuan-hung-ngoai-ay-v.-a-playlist-nhac-cua-tui/T%C3%ACm%20L%E1%BA%A1i%20B%E1%BA%A7u%20Tr%E1%BB%9Di%20-%20Tu%E1%BA%A5n%20H%C6%B0ng%20-%20Ngo%C3%A0i%20%E1%BA%A4y%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
-            image: "https://dep.com.vn/wp-content/uploads/2017/05/Ca-si-Tuan-Hung-3.jpg"
+                "https://archive.org/download/y-2mate.com-le-lu-u-ly-vu-phu-ng-tie-n-x-dt-ta-p-rap-x-drum-7-official-lyric-video-v-240-p/y2mate.com%20-%20L%E1%BB%86%20L%C6%AFU%20LY%20%20V%C5%A8%20PH%E1%BB%A4NG%20TI%C3%8AN%20X%20DT%20T%E1%BA%ACP%20RAP%20X%20DRUM7%20%20OFFICIAL%20LYRIC%20VIDEO_v240P.mp4",
+            image: "https://i.ytimg.com/vi/Klqg7Ps5VL8/maxresdefault.jpg"
         },
         {
             name: "Bài Này Không Để Đi Diển",
@@ -65,6 +83,14 @@ const app = {
                 "https://archive.org/download/bai-nay-khong-de-di-dien-anh-tu-atus-nhac-viet-hot-thang-11-2022-v.-a-playlist-nhac-cua-tui/B%C3%A0i%20N%C3%A0y%20Kh%C3%B4ng%20%C4%90%E1%BB%83%20%C4%90i%20Di%E1%BB%85n%20-%20Anh%20T%C3%BA%20Atus%20-%20Nh%E1%BA%A1c%20Vi%E1%BB%87t%20Hot%20Th%C3%A1ng%2011_2022%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
             image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtv4OKh1vFbzoz-lfT3tjK2od1ZiL2foIexjwnbK5w0E_6g0KWRX66RivBrJ2ugAQRA6z-Yy_e3pSe-D3eInlvLIXVkfKO5GdCcr8v5t5FSATmAun6FEiXeQxgMryUsR4IcgqJq1XgwZ4rSz9f7MpZkLTb9JqvMDK1SKyEt-nLLPRQSkEVGCo7Z2VdOA/s1440/FB_IMG_1665400345431.jpg"
         },
+        {
+            name: "À Lôi",
+            singer: "Double 2T x MASEW",
+            path:
+                "https://archive.org/download/y-2mate.com-double-2-t-x-masew-a-loi-official-lyric-video-masewprod-double-2-tofficial-v-240-p/y2mate.com%20-%20Double2T%20x%20Masew%20%20%C3%80%20L%C3%B4i%20%20%20Official%20Lyric%20Video%20Masewprod%20Double2TOfficial_v240P.mp4",
+            image: "https://cdnphoto.dantri.com.vn/8T0xAg-KyYBFjOfyeHL9DpXHupQ=/thumb_w/1020/2023/07/27/ca-khuc-a-loi-cua-nam-rapper-moi-noi-gay-bao-am-nhac-vietdocx-1690428737751.jpeg"
+        },
+
         {
             name: "Cơn Mưa Xa Dần",
             singer: "Sơn Tùng M-TP",
@@ -124,11 +150,11 @@ const app = {
                 "https://static2.yan.vn/YanNews/2167221/202109/jaykii-la-ai-thong-tin-tieu-su-ca-si-tran-anh-quan-4d3dc683.jpeg"
         },
         {
-            name: "Em Có Nghe",
-            singer: "KHA",
-            path: "https://archive.org/download/em-co-nghe-kha-top-indie-vie-t-hot-nhat-2020-v.-a-playlist-nhac-cua-tui/Em%20C%C3%B3%20Nghe%20-%20Kha%20-%20Top%20INDIE%20VI%E1%BB%86T%20Hot%20Nh%E1%BA%A5t%202020%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
+            name: "Khi Cơn Mơ Dần Phai",
+            singer: "Tez Ft Myra Trần",
+            path: "https://archive.org/download/y-2mate.com-khi-con-mo-dan-phai-tez-ft-myra-tran-team-big-daddy-rap-viet-2023-mv-lyrics-v-240-p/y2mate.com%20-%20Khi%20C%C6%A1n%20M%C6%A1%20D%E1%BA%A7n%20Phai%20%20Tez%20ft%20Myra%20Tr%E1%BA%A7n%20%20Team%20BigDaddy%20%20Rap%20Vi%E1%BB%87t%202023%20MV%20Lyrics_v240P.mp4",
             image:
-                "https://i.scdn.co/image/ab67616d0000b2737da44e3bda1e84148c0dc754"
+                "https://media-cdn-v2.laodong.vn/storage/newsportal/2023/9/3/1237038/Thi-Sinh-Tez-7.jpg"
         },
         {
             name: "Yêu 5",
@@ -143,6 +169,13 @@ const app = {
             path: "https://archive.org/download/thang-tu-la-loi-noi-doi-cua-em-ha-anh-tuan-v-pop-essentials-v.-a-playlist-nhac-cua-tui/Th%C3%A1ng%20T%C6%B0%20L%C3%A0%20L%E1%BB%9Di%20N%C3%B3i%20D%E1%BB%91i%20C%E1%BB%A7a%20Em%20-%20H%C3%A0%20Anh%20Tu%E1%BA%A5n%20-%20V-POP%20Essentials%20-%20V.A%20-%20Playlist%20NhacCuaTui.mp3",
             image:
                 "https://vnn-imgs-a1.vgcloud.vn/img.infonet.vn/w490/Uploaded/2020/rkjokv/2020_04_01/kpodbivavwmdb7yczkrjr0cdvtccjzshfsxl8qpg_oumk.jpeg"
+        },
+        {
+            name: "Take It Easy",
+            singer: "Liu Grace",
+            path: "https://archive.org/download/y-2mate.com-take-it-easy-liu-grace-team-thai-vg-rap-viet-2023-mv-lyrics-v-240-p/y2mate.com%20-%20Take%20It%20Easy%20%20Liu%20Grace%20%20Team%20Th%C3%A1i%20VG%20%20Rap%20Vi%E1%BB%87t%202023%20MV%20Lyrics_v240P.mp4",
+            image:
+                "https://scontent.xx.fbcdn.net/v/t1.15752-9/394224206_295943570043462_6424527389384590089_n.png?stp=dst-png_p235x165&_nc_cat=107&ccb=1-7&_nc_sid=510075&_nc_ohc=faPQD-5CKCwAX8joqLa&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRr0iWUVQl0CVNRgPvn0qQCEe80talHelp1SjwohjVXNg&oe=6558FC7B"
         },
         {
             name: "Buông Đôi Tay Nhau Ra",
@@ -188,11 +221,11 @@ const app = {
         },
 
         {
-            name: "Đổi Thay",
-            singer: "Hồ Quang Hiếu",
-            path: "https://archive.org/download/doi-thay-hqh/doi%20thay%20-%20HQH.mp3",
+            name: "Có Em Chờ",
+            singer: "MIN ft Mr.A",
+            path: "https://archive.org/download/y-2mate.com-min-co-em-cho-ft-mr-a-official-mv-v-240-p/y2mate.com%20-%20MIN%20%20C%C3%B3%20Em%20Ch%E1%BB%9D%20ft%20Mr%20A%20Official%20MV_v240P.mp4",
             image:
-                "https://avatar-ex-swe.nixcdn.com/singer/avatar/2018/05/07/7/c/e/5/1525673879571_600.jpg"
+                "https://ss-images.saostar.vn/2017/05/10/1277995/cpn_1619.jpg"
         },
         {
             name: "Phía Sau Em",
